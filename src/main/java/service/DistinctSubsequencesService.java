@@ -1,6 +1,5 @@
 package main.java.service;
 
-
 import main.java.core.DistinctSubsequencesSolver;
 
 public class DistinctSubsequencesService implements DistinctSubsequencesSolver {

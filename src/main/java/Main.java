@@ -1,11 +1,11 @@
 package main.java;
 
-import main.java.core.DistinctSubsequences;
+import main.java.core.DistinctSubsequencesMatrix;
 import main.java.service.DistinctSubsequencesService;
 
 public class Main {
     public static void main(String[] args) {
-        DistinctSubsequences calculator = new DistinctSubsequences();
+        DistinctSubsequencesMatrix calculator = new DistinctSubsequencesMatrix();
         DistinctSubsequencesService service = new DistinctSubsequencesService(calculator);
 
         String s1 = "rabbbit", t1 = "rabbit";

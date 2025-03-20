@@ -1,14 +1,12 @@
 package test.java.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import main.java.core.DistinctSubsequences;
+import main.java.core.DistinctSubsequencesMatrix;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import main.java.service.DistinctSubsequencesService;
 
-
-public class DistinctSubsequencesServiceTest {
+public class DistinctSubsequencesMatrixServiceTest {
 
     private DistinctSubsequencesService service;
 
@@ -20,7 +18,7 @@ public class DistinctSubsequencesServiceTest {
      */
     @BeforeEach
     void setUp() {
-        DistinctSubsequences calculator = new DistinctSubsequences();
+        DistinctSubsequencesMatrix calculator = new DistinctSubsequencesMatrix();
         service = new DistinctSubsequencesService(calculator);
     }
 

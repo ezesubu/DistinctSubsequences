@@ -1,6 +1,13 @@
+// Programación Dinámica con Matrix
+//  O(n²)
+// Ventajas:
+//  - Fácil de entender y codificar.
+// Desventaja:
+//  -Usa O(n·m) espacio adicional por la matriz.
+
 package main.java.core;
 
-public class DistinctSubsequences implements DistinctSubsequencesSolver {
+public class DistinctSubsequencesMatrix implements DistinctSubsequencesSolver {
 
     @Override
     public int numDistinct(String s, String t) {
